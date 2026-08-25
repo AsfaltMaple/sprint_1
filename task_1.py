@@ -12,4 +12,4 @@ for period in periods:
         elif 's' in time:
             total_minutes += int(time.replace('s','')) / 60
 
-print(f"Total minutes: {total_minutes}")
+print(total_minutes)
